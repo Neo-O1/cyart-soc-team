@@ -1,0 +1,1 @@
+This simulated phishing incident showed that user awareness is strong, as the email was reported quickly and contained before damage. However, URL filtering and automated detection could be improved. Future improvements include tighter proxy rules, additional SIEM correlation on mail patterns, and scheduled user awareness refreshers.
