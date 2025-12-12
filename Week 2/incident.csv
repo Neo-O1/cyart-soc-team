@@ -1,0 +1,6 @@
+Incident ID,Title,Category,Actor,Action,Asset,Attribute,MITRE Tactic,MITRE Technique,ENISA Type,Notes
+INC-001,Phishing Email to HR,Phishing,External,SOCIAL,User Mailbox,Confidentiality,Initial Access,T1566,Malicious Code,Contains suspicious link to fake HR portal
+INC-002,Brute-force SSH on Test VM,Brute Force,External,HACKING,LINUX-TEST-VM,Availability,Credential Access,T1110,Intrusion,High volume of failed logins from single IP
+INC-003,VSFTPD Backdoor Exploit on Metasploitable2,Web Exploit,External,HACKING,Metasploitable2 VM,Integrity,Initial Access,T1190,Intrusion,Metasploit module used
+INC-004,Malware Detected on User Laptop,Malware,External,MALWARE,User-Laptop-01,Confidentiality;Integrity,Execution,T1204,Malware,User executed malicious attachment
+INC-005,Port Scan from Internal IP,Reconnaissance,Internal (Scanner),HACKING,LAB-WEB-TEST,Availability,Reconnaissance,T1046,Intrusion,Legitimate security scan activity
