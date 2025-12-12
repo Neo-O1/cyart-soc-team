@@ -1,0 +1,4 @@
+Item,Description,Collected By,Date,Time,Hash (SHA256),Storage Location
+Memory Dump,Server-X full memory dump,SOC Analyst,2025-08-18,14:45:00,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Secure evidence share \\fileserver\evidence
+Disk Image,User-Laptop-01 disk image,SOC Analyst,2025-08-18,15:30:00,bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb,External encrypted drive (locker A3)
+Log Archive,Wazuh logs for incident window,SOC Analyst,2025-08-18,16:00:00,cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc,SIEM archive bucket s3://soc-logs
