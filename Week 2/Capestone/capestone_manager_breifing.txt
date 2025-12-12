@@ -1,0 +1,8 @@
+On 18 August 2025, a controlled security exercise was conducted against a vulnerable
+FTP service in our lab to test our detection and response processes. 
+  The simulated attacker successfully exploited an outdated service and gained command-line access.
+  Our monitoring tools recorded the activity, and the system was quickly contained and reset. 
+  No production systems or real data were involved. 
+  This exercise confirms that similar vulnerabilities in production could lead to compromise if 
+not patched. The main recommendations are to remove or update outdated services, strengthen
+  monitoring rules, and continue regular security testing.
