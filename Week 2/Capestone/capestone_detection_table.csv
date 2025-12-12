@@ -1,0 +1,4 @@
+Timestamp,Source IP,Target IP,Alert Description,MITRE Technique
+2025-08-18 11:15:05,192.168.1.100,192.168.1.50,VSFTPD exploit connection detected,T1190
+2025-08-18 11:15:10,192.168.1.100,192.168.1.50,Post-exploitation shell activity observed,T1059
+2025-08-18 11:20:00,192.168.1.100,192.168.1.50,Anomalous FTP behavior rule triggered,T1190
