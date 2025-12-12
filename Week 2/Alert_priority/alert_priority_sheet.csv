@@ -1,0 +1,6 @@
+Alert ID,Alert Name,Type,Asset,CVE,CVSS Score,Asset Criticality,SOC Priority,MITRE Tactic,MITRE Technique,Notes
+001,Log4Shell Exploit Detected,Remote Code Execution,Web-Server-Prod-1,CVE-2021-44228,9.8,Production,Critical,Initial Access,T1190,Internet-facing app; immediate response required
+002,Unauthorized Admin Login,Credential Misuse,WIN-SERVER-DB,,8.2 (underlying vuln),Production,High,Privilege Escalation,T1078,Admin login from unusual IP
+003,Brute-force SSH Attempts,Brute Force,LINUX-TEST-VM,,N/A,Test,Medium,Credential Access,T1110,Repeated failed logins from 192.168.1.100
+004,Port Scan Detected,Reconnaissance,LAB-WEB-TEST,,N/A,Test,Low,Reconnaissance,T1046,Known scanner IP; expected behavior
+005,Suspicious Phishing Email,Phishing,User-Laptop-01,,N/A,User Endpoint,High,Initial Access,T1566,Contains suspicious link and spoofed sender
