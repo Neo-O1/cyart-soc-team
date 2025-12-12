@@ -1,0 +1,5 @@
+Alert ID,Description,Source IP,Destination Host,Priority,Status,Action Taken,TI Result
+002,Brute-force SSH attempts,192.168.1.100,LINUX-TEST-VM,Medium,Open,Reviewed logs and increased monitoring,No threat intel hits; likely lab attacker
+003,Possible malware file detected,192.168.1.50,User-Laptop-01,High,In Progress,File hash submitted to VT,Hash flagged by VT as known malware
+004,Port scan detected,192.168.1.200,LAB-WEB-TEST,Low,Closed,Verified as internal security scanner,Benign based on known scanner IP and schedule
+005,Suspicious outbound connection,192.168.1.60,External-IP,High,Open,Isolated endpoint and requested memory capture,IP associated with botnet C2 in OTX
